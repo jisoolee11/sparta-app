@@ -42,7 +42,7 @@ export default function DetailPage({ navigation, route }) {
         // 특정 찜 데이터 몽땅 저장!
         // 찜 데이터 방 > 사용자 방 > 어떤 찜인지 아이디
         const user_id = Constants.installationId;
-        firebase_db.ref('/like/' + user_idx + '/' + tip.idx).set(tip, function (error) {
+        firebase_db.ref('/like/' + user_id + '/' + tip.idx).set(tip, function (error) {
             console.log(error)
             Alert.alert("찜 완료!")
         });
