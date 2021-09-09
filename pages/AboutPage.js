@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         fontWeight:"700",
         color:"#fff",
         paddingLeft:30,
-        paddingTop:100,
+        paddingTop:10,
         paddingRight:30
     },
     textContainer: {
